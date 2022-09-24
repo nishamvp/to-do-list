@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
     "lodash": "^4.17.21",
     "mongoose": "^6.6.1",
     "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.25.0"
   }
 }
